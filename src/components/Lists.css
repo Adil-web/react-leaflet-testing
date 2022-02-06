@@ -1,0 +1,18 @@
+.list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.list-item:hover {
+    background: whitesmoke;
+    border-left: 4px solid blue;
+}
+
+.active {
+    background: whitesmoke;
+    border-left: 4px solid blue;
+}
